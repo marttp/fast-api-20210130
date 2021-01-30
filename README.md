@@ -1,0 +1,6 @@
+- pip3 install pipenv
+- pipenv shell
+- pipenv install fastapi
+- pipenv install uvicorn
+- cd api
+- uvicorn main:app --reload
